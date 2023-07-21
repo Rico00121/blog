@@ -1,4 +1,49 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Rico's blog"
 theme = 'anatole'
+
+[params]
+title = "I'm Ruikang Tao"
+author = "Ruikang Tao"
+description = """
+Call me Rico
+Full-stack Developer
+"""
+profilePicture = "images/profile.jpg"
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/%E7%91%9E%E5%BA%B7-%E9%99%B6-b295741a2/"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "e-mail"
+url = "https://github.com/Rico00121"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:rico00121@outlook.com"
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
+  
