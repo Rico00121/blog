@@ -27,6 +27,11 @@ icon = "fas fa-envelope"
 title = "e-mail"
 url = "mailto:rico00121@outlook.com"
 
+[[params.socialIcons]]
+icon = "fas fa-rss"
+title = "rss"
+url = "https://rico00121.github.io/blog/post/index.xml"
+
 [menu]
 
   [[menu.main]]
