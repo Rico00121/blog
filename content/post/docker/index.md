@@ -2,18 +2,17 @@
 title: "Dissecting Docker: From Dockers to Container Sandboxes"
 date: 2023-05-28
 draft: false
-description: "Guide to Thumbnails in Hugo"
 ---
 
 
-### What is Docker?
+## What is Docker?
 If you've heard of Docker and used it, you probably know where the name comes from; Docker takes its name from the dockworkers who are responsible for moving containers and moving them from one place to another. In the computer world, Docker is also a mover, responsible for moving applications and their dependencies from one environment to another. This is a concrete implementation of containerisation technology, which enables lightweight packaging and deployment of applications through the concepts of images and containers that package an application into a portable container.
 
 Image is an important concept in Docker, which is similar to the disc on which the operating system is installed. In Docker, an image is an executable image of the code, which consists of some initialisation data and the binary file of the code itself. A container is a virtual computer with an installed system that is booted from an image. With the docker run command, we can quickly start a container that runs the software corresponding to the image, thus enabling the application to run.
 
 Containers are actually a sandboxing technology, and as the name suggests, a sandbox is a technology that "packs" your application like a container. In this way, applications and applications because there is a boundary and not to interfere with each other. The applications that are packed into the container can also be easily moved around. This sandboxing technique helps us to better isolate different applications from each other. At the same time, it also makes applications more portable and can be easily run in different environments.
 
-### What's the difference from a traditional virtual machine？
+## What's the difference from a traditional virtual machine？
 
 Both Docker and virtual machines can be used to isolate applications and their dependencies, enabling lightweight packaging and deployment of applications. However, they are implemented differently.
 
@@ -24,13 +23,13 @@ The advantage of Docker over virtual machines is that it starts faster and uses 
 However, Docker has some limitations. For example, in the Linux kernel, there are many resources and objects that cannot be Namespaced, such as time. If you execute a system call that modifies time in a Docker container, the time of the entire host is also modified. Therefore, when deploying an application using Docker, you need to give more thought to which resources and objects can be Namespace-enabled, as well as their limitations and security concerns. Virtual machines, on the other hand, completely isolate the application and its dependencies and are relatively more secure, but they also require more resources and cost more to run.
 In summary, both Docker and virtual machines have their advantages and limitations. When choosing which technology to use, you need to weigh them against specific application scenarios and requirements. For applications that require rapid deployment and lightweight isolation, Docker may be more suitable, while for applications with higher requirements for isolation and security, virtual machines may be more appropriate.
 
-### What problem does Docker solve?
+## What problem does Docker solve?
 
 Imagine being able to easily package an application and all its dependencies and then run it smoothly in different development, testing and production environments. This is the goal of the open source Docker project.
 The emergence of Docker as an open source containerisation platform has solved many of the application packaging and deployment challenges. Before the emergence of container technology, application packaging and deployment usually need to consider a lot of dependencies (all kinds of interdependencies caused by dependencies hell), environment and configuration issues, which makes the deployment of applications become complex and error-prone. Docker solves the fundamental problem of application packaging and deployment by packaging applications and their dependencies into a portable container through the concept of container images. By constraining and modifying the dynamic behaviour of processes, Docker creates a clear "boundary" for containers, making application deployment and management easier and more reliable.
 In addition, Docker lays the foundation for container orchestration technologies like Kubernetes (k8s), which provides a set of foundational dependencies for building distributed systems based on containers. Using Docker and Kubernetes, developers can more easily build, deploy, and manage distributed applications, while also better enabling horizontal scaling and high availability of applications. As a result, Docker is widely used in cloud computing, DevOps, and microservices, and has become one of the key cornerstones of modern software development and deployment.
 
-### The underlying technical principles of Docker
+## The underlying technical principles of Docker
 
 Before we talk about the technical implementation of Docker, it's important to understand what a process is so that we can better understand the Docker container. What is a process? Simply put, a process is an entry with a port that we see when we open the task manager or type ps in cmd, it is a process, it is a programme that runs when we write code. To put it more professionally, a process is the sum total of the execution environment of a computer after a programme has been run. For a process, its static representation is the programme, once it is running, it becomes the sum of the data and state in the computer (dynamic representation). Containers, on the other hand, are essentially a special kind of process.
 Docker uses Namespace technology and Cgroups technology in the Linux operating system to implement containerisation, enabling isolation and resource management between containers and hosts.
@@ -117,13 +116,13 @@ Corresponding to a specific mysql: 8.0 image, that is:
 
 Through this layered approach, container images can be more flexible and efficient management and use. When the container is started, Docker will mount multiple layers together to form a complete root file system. This is one of the reasons Docker is able to start containers quickly. At the same time, because each layer is relatively independent, we can more easily manage and update the container image, just need to modify the corresponding layer, rather than having to rebuild the entire image. This is also in line with Docker's philosophy of "build once, run everywhere".
 
-### Summary
+## Summary
 
 In this article, we first compare the similarities and differences between Docker and traditional virtual machines. We then introduce the isolation environment consisting of various Namespaces and Cgroups, which we call the Container Runtime, the dynamic part of the Docker container. Next, we introduce the concept of the container image hierarchy, introducing a set of rootfs mounted on a filesystem directory, the "container image" part, which is the static part of the container. They are the static part of the container. The container image part is more important than the runtime part of the container, because they are the part that actually carries the information.
 
 I think the core value of Docker technology is to layer, isolate, and simplify deployment. This allows developers to focus more on product coding, which greatly improves work efficiency. At the same time, the emergence of Docker technology has also laid a solid foundation for the emergence of container orchestration technologies like Docker Swarm, Kubernetes and Amazon ECS.
 
-### References
+## References
 
 1.  Merkel, D. (2014). Docker: lightweight linux containers for consistent development and deployment. Linux j, 239(2), 2.
 2.  Chen, Hao. (2015, April 16). Docker Basic Techology: Linux Namespace (Part I). Coolshell. https://coolshell.cn/articles/17010.html
