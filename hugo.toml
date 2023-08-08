@@ -15,7 +15,7 @@ profilePicture = "images/profile.jpg"
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
 title = "Linkedin"
-url = "https://www.linkedin.com/in/%E7%91%9E%E5%BA%B7-%E9%99%B6-b295741a2/"
+url = "https://www.linkedin.com/in/ruikang-tao-b295741a2/"
 
 [[params.socialIcons]]
 icon = "fab fa-github"
