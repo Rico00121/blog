@@ -1,13 +1,11 @@
 ---
-title: "Contract Testing - Building Stable Large Distributed Systems"
+title: "Demystifying Consumer-Driven Contract Testing: The Secret Weapon for Improving Software Quality"
 date: 2024-04-01T22:20:46+08:00
 Description: ""
 Tags: []
 Categories: []
 DisableComments: false
 ---
-*Building Stable Large Distributed Systems with Consumer-Driven Contract Testing*
-
 ## Quick Overview
 With this blog, you can learn:
 - What problems contract testing solves
