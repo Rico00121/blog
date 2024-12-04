@@ -1,14 +1,13 @@
 baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = "Rico's blog"
+defaultContentLanguage = 'en'
 theme = 'anatole'
 
 [params]
 title = "I'm Ruikang Tao"
 author = "Ruikang Tao"
 description = """
-Call me Rico
-Full-stack Developer
+Full-stack Engineer
+Developing Expertise in Cloud & Network Infra
 """
 profilePicture = "images/profile.jpg"
 
@@ -32,23 +31,52 @@ icon = "fas fa-rss"
 title = "rss"
 url = "https://rico00121.github.io/blog/post/index.xml"
 
-[menu]
+[languages]
+[languages.en]
+title = "Rico's blog"
+weight = 1
+languageName = "English"
 
-  [[menu.main]]
-  name = "Home"
-  identifier = "home"
-  weight = 100
-  url = "/"
+[languages.en.menus]
+[[languages.en.menus.main]]
+name = "Home"
+identifier = "home"
+weight = 100
+url = "/"
+[[languages.en.menus.main]]
+name = "Posts"
+weight = 200
+identifier = "posts"
+url = "/post/"
+[[languages.en.menus.main]]
+name = "About"
+weight = 300
+identifier = "about"
+url = "/about/"
 
-  [[menu.main]]
-  name = "Posts"
-  weight = 200
-  identifier = "posts"
-  url = "/post/"
 
-  [[menu.main]]
-  name = "About"
-  weight = 300
-  identifier = "about"
-  url = "/about/"
-  
+
+[languages.cn]
+
+title = "瑞康的博客"
+description = "成长路上的碎碎念"
+weight = 2
+
+languageName = "Chinese"
+
+[languages.cn.menus]
+[[languages.cn.menus.main]]
+name = "主页"
+identifier = "home"
+weight = 100
+url = "/cn"
+[[languages.cn.menus.main]]
+name = "博客"
+weight = 200
+identifier = "posts"
+url = "/cn/post/"
+[[languages.cn.menus.main]]
+name = "关于我"
+weight = 300
+identifier = "about"
+url = "/cn/about/"
