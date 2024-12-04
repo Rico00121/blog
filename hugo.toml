@@ -11,6 +11,8 @@ Developing Expertise in Cloud & Network Infra
 """
 profilePicture = "images/profile.jpg"
 
+gtagId = "G-W287YYPD0G"
+
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
 title = "Linkedin"
