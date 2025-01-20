@@ -6,4 +6,4 @@ Tags: []
 Categories: []
 DisableComments: false
 ---
-更多博客请查看我的英文版本或者[掘金主页](https://juejin.cn/user/4473263302917304/posts)
+更多博客请查看我的英文版本或者掘金主页(https://juejin.cn/user/4473263302917304/posts)
