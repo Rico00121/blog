@@ -16,11 +16,11 @@ gtagId = "G-W287YYPD0G"
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
 title = "Linkedin"
-url = "https://www.linkedin.com/in/ruikang-tao-b295741a2/"
+url = "https://www.linkedin.com/in/ruikang-tao/"
 
 [[params.socialIcons]]
 icon = "fab fa-github"
-title = "e-mail"
+title = "github"
 url = "https://github.com/Rico00121"
 
 [[params.socialIcons]]
@@ -55,7 +55,7 @@ url = "/post/"
 name = "About"
 weight = 300
 identifier = "about"
-url = "/about/"
+url = "https://ricotao.me/"
 
 
 
@@ -81,4 +81,4 @@ url = "/cn/post/"
 name = "关于我"
 weight = 300
 identifier = "about"
-url = "/cn/about/"
+url = "https://ricotao.me/"
