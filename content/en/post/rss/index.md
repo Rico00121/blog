@@ -57,4 +57,4 @@ I was thinking that the inventor of such a big format must be an amazing person 
 
 He passed away in 2013, in his prime, and for those interested in his life, you can watch the documentary film "Son of the Internet". I was writing an article using the Markdown formatting specification he wrote, and I felt that the world was missing a true "fighter", a qualified software developer and documentation contributor. I felt sorry for the loss of a real "fighter" in the world, a qualified software developer and document contributor, and I had mixed feelings for a while.
 
-![Aaron Hillel Swartz, 1986-2013](images/Aaron_Swartz_2_at_Boston_Wikipedia_Meetup,_2009-08-18.jpg)
+<img src="images/Aaron_Swartz_2_at_Boston_Wikipedia_Meetup,_2009-08-18.jpg" alt="Aaron Hillel Swartz, 1986-2013" width="600" />
