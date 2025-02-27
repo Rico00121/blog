@@ -38,7 +38,6 @@ url = "https://rico00121.github.io/blog/post/index.xml"
 title = "Rico's blog"
 weight = 1
 languageName = "English"
-contentDir = 'content/en'
 
 [languages.en.menus]
 [[languages.en.menus.main]]
@@ -59,25 +58,23 @@ url = "https://ricotao.me/"
 
 
 
-[languages.cn]
+[languages.zh]
 title = "瑞康的博客"
-description = "成长路上的碎碎念"
 weight = 2
 languageName = "Chinese"
-contentDir = 'content/cn'
 
-[languages.cn.menus]
-[[languages.cn.menus.main]]
+[languages.zh.menus]
+[[languages.zh.menus.main]]
 name = "主页"
 identifier = "home"
 weight = 100
-url = "/cn"
-[[languages.cn.menus.main]]
+url = "/zh"
+[[languages.zh.menus.main]]
 name = "博客"
 weight = 200
 identifier = "posts"
-url = "/cn/post/"
-[[languages.cn.menus.main]]
+url = "/zh/post/"
+[[languages.zh.menus.main]]
 name = "关于我"
 weight = 300
 identifier = "about"
