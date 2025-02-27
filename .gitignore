@@ -2,4 +2,6 @@ resources
 public
 .idea
 .vscode
-*.DS_Store
+**/.DS_Store
+.venv
+.env
