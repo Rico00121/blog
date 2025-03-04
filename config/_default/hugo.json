@@ -1,0 +1,12 @@
+{
+    "baseURL": "https://rico00121.github.io/blog",
+    "defaultContentLanguage": "en",
+    "theme": "anatole",
+    "markup": {
+        "goldmark": {
+            "renderer": {
+                "unsafe": true
+            }
+        }
+    }
+}

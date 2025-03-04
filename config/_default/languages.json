@@ -1,0 +1,50 @@
+{
+    "en": {
+        "languageName": "English",
+        "title": "Rico's blog",
+        "weight": 1,
+        "menus": {
+            "main": [
+                {
+                    "name": "Home",
+                    "weight": 100,
+                    "pageRef": "/"
+                },
+                {
+                    "name": "Posts",
+                    "weight": 200,
+                    "pageRef": "/post/"
+                },
+                {
+                    "name": "About",
+                    "weight": 300,
+                    "pageRef": "https://ricotao.me/"
+                }
+            ]
+        }
+    },
+    "zh": {
+        "languageName": "Chinese",
+        "title": "瑞康的博客",
+        "weight": 2,
+        "menus": {
+            "main": [
+                {
+                    "name": "主页",
+                    "weight": 100,
+                    "pageRef": "/"
+                },
+                {
+                    "name": "博客",
+                    "weight": 200,
+                    "pageRef": "/post/"
+                },
+                {
+                    "name": "关于我",
+                    "weight": 300,
+                    "pageRef": "https://ricotao.me/"
+                }
+            ]
+        }
+    }
+}

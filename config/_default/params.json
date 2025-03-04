@@ -1,0 +1,29 @@
+{
+    "title": "I'm Ruikang Tao",
+    "author": "Ruikang Tao",
+    "description": "Full-stack Engineer\nDeveloping Expertise in Cloud & Network Infra",
+    "profilePicture": "images/profile.jpg",
+    "gtagId": "G-W287YYPD0G",
+    "socialIcons": [
+        {
+            "icon": "fab fa-linkedin",
+            "title": "Linkedin",
+            "url": "https://www.linkedin.com/in/ruikang-tao/"
+        },
+        {
+            "icon": "fab fa-github",
+            "title": "github",
+            "url": "https://github.com/Rico00121"
+        },
+        {
+            "icon": "fas fa-envelope",
+            "title": "e-mail",
+            "url": "mailto:rico00121@outlook.com"
+        },
+        {
+            "icon": "fas fa-rss",
+            "title": "rss",
+            "url": "https://rico00121.github.io/blog/post/index.xml"
+        }
+    ]
+}
