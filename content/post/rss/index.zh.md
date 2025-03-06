@@ -15,7 +15,7 @@ summary: "文章介绍了 RSS（简易信息聚合）和 Feed，包括 Feed 的�
 
 顺着链接点进去，是一个xml格式的文件，以某种特殊的规范记录着博客上的信息。
 
-<img src="images/Snipaste_2022-10-29_14-40-04.png" alt="XML file" width="600" />
+<img src="/blog/post/rss/images/Snipaste_2022-10-29_14-40-04.png" alt="XML file" width="600" />
 
 在好奇心的驱动下，我对它进行了一系列的探索和尝试，最终产出了这篇博客，给大家分享一下这个有趣的“工具”。
 
@@ -59,4 +59,4 @@ Feed阅读器的实现原理其实非常简单，订阅之后，阅读器通过�
 ## 花絮
 我在想格局如此之大的发明者，想必一定是一个了不起的人，于是在网上搜索了他或他们的信息。这让我了解到这么一个人，亚伦·希勒尔·斯沃茨，他参与开发了RSS消息來源发布格式、Markdown文本发布格式、知识共享组织、web.py网站开发框架，同时是社交媒体Reddit的联合创始人。于2013年去世，正直大好年华，对他的生平有兴趣的朋友可以观看记录片《互联网之子》，正在使用他所写的Markdown格式规范进行文章书写的我，为世界上少了一位真正的“斗士”，一名合格的软件开发者和文档贡献者感到可惜，一时间百感交集。
 
-<img src="images/Aaron_Swartz_2_at_Boston_Wikipedia_Meetup,_2009-08-18.jpg" alt="Aaron Hillel Swartz, 1986-2013" width="600" />
+<img src="/blog/post/rss/images/Aaron_Swartz_2_at_Boston_Wikipedia_Meetup,_2009-08-18.jpg" alt="Aaron Hillel Swartz, 1986-2013" width="600" />
