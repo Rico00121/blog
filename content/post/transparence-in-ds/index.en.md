@@ -1,0 +1,26 @@
+---
+Categories: ["Distributed Systems"]
+Description: ''
+Tags: []
+date: 2025-03-18 14:12:24
+summary: The transparency of distributed systems conceals underlying complexity, enhancing
+  user experience but also posing challenges for management and troubleshooting. Consistency
+  algorithms, reasonable architecture, and observability are needed to optimize them.
+title: Transparency in Distributed Systems
+---
+
+What is transparency in distributed systems? Before answering this question, let's first discuss what a distributed system is.
+
+A distributed system is a collection of **autonomous computing elements** that cooperate with each other to form a cohesive whole. From the outside, the entire system appears to be a single service, and the user does not perceive the collaborative work happening behind multiple nodes. This concept is not only present in computer systems; in fact, all complex systems in nature result from the coordinated operation of multiple simple subsystems. For example, the human body is made up of systems such as the nervous, circulatory, and digestive systems, each composed of different organs. It is the collaboration of these simple components that endows the whole with a complexity and functionality far surpassing the individual parts.
+
+Dividing complex things into "systems" helps us reduce cognitive and management costs. Transparency plays the role of hiding these complex internal structures from the user. In computing, "transparency" does not mean visible; rather, it is the complete opposite—it means that users **do not need to care at all** about what happens internally; they only need to enjoy the services provided by the system. Like passengers on a plane, they do not need to know how the various instruments and control switches in the cockpit work—they just want to arrive at their destination safely and comfortably.
+
+In a distributed system, transparency means that users and applications **do not need to worry about the underlying architecture**; the entire system appears as a unified whole. How data is synchronized across different nodes, how tasks are scheduled on multiple servers, how requests are appropriately routed—these complex details are encapsulated by a carefully designed system. For users, this is undoubtedly a good thing, as it reduces their cognitive burden. However, for developers and architects, hiding complexity does not mean complexity disappears; rather, it is transferred to the system design and maintenance level.
+
+For a system to remain transparent, it means that when facing various faults and challenges, it must still maintain overall coherence. You need to consider the data synchronization issues among multiple computing nodes, ensuring they remain consistent at different points in time. This is also why distributed systems cannot do without consensus algorithms because, among multiple computing nodes, each node has its own perception of time, and without a global coordination mechanism, they would be like a flight scheduling system at an airport with inaccurate clocks, full of chaos and conflict.
+
+Of course, the cost of transparency does not end there. When a node in a distributed system fails, troubleshooting is far more complex than in a single-machine environment. Imagine you called an API that returned an error, and behind this API, there may be a dozen computing nodes working together. How do you quickly find the source of the fault? The traditional method might be to log into each of these nodes one by one, check logs, and troubleshoot issues, but doing so has a high cost because **each node can only see its own state and cannot understand the system's operation from a global perspective**.
+
+This is also why observability is crucial in distributed systems.The system is so important. To reduce the complexity of troubleshooting, we need to introduce **link tracing, centralized log management, and performance metrics monitoring** so that all system behaviors can be captured, analyzed, and visualized. When a request travels between multiple services, link tracing can help you clearly see through which nodes it passed and at which stage an anomaly occurred. Centralized log management means you don't have to manually SSH into each machine; instead, you can search and analyze logs all on one platform. Performance monitoring allows you to grasp the system's health status in real-time and proactively warn of potential issues.
+
+The transparency of distributed systems provides users with a seamless experience, but it also brings new challenges at the architectural level. To keep the system both transparent and manageable, we need to consider it from multiple dimensions such as consistency, architectural design, and observability. How can we ensure the efficient operation of the system while shielding its complexity? How can we allow the system to have self-healing capabilities without the user being aware? There are no fixed answers to these questions, but they constitute the core challenges of distributed system design.
