@@ -3,7 +3,7 @@ title: "Mastering Network Command-Line Tools: A Practical Guide"
 date: 2025-02-11T19:57:39+01:00
 Description: ""
 Tags: []
-Categories: []
+Categories: ["Computer Networking"]
 DisableComments: false
 summary: "Network troubleshooting and diagnostics are essential for system administrators, developers, and network enthusiasts. Understanding how to retrieve system information, query DNS records, analyze network connections, and inspect packet details is crucial. This blog will introduce various Linux network command-line tools based on practical experiments."
 ---

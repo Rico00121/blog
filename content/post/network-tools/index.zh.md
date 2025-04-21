@@ -3,7 +3,7 @@ title: "掌握网络命令行工具：实战指南"
 date: 2025-02-11T19:57:39+01:00
 Description: ""
 Tags: []
-Categories: []
+Categories: ["Computer Networking"]
 DisableComments: false
 summary: "对于软件工程师来说，了解如何获取系统信息、查询 DNS 记录、分析网络连接以及检查数据包细节至关重要。本博客将基于实际实验，介绍 Linux 下的各种网络命令行工具。"
 ---

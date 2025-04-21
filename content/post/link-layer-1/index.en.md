@@ -1,6 +1,5 @@
 ---
-Categories:
-- Computer Networking
+Categories: ["Computer Networking"]
 Description: ''
 DisableComments: false
 Tags: []
