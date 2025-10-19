@@ -1,0 +1,56 @@
+---
+title: 'Demystifying Machine Learning: Classification Frameworks, Amortization Thinking,
+  and Business Orientation'
+date: 2025-10-19T17:30:14+03:00
+Description: ""
+Tags: []
+Categories: ["Machine Learning"]
+DisableComments: false
+draft: false
+summary: I recently finished a machine learning course (cs-c3240) and finally have
+  some time to think and reflect on it. This was my first formal exposure to machine
+  learning, and as a newbie, I gained a lot from the course. I am very grateful for
+  the efforts put in by the professor and teaching assistants, and I would also like
+  to thank my classmates. Due to our peer review system, their projects and feedback
+  on our assignments gave me a deeper understanding of machine learning.
+---
+
+Recently, I finished the machine learning course (cs-c3240), and I finally have some time to carefully reflect and summarize my learnings. This was my first formal introduction to machine learning. As a complete beginner, I gained a lot from this course. I am very grateful to the instructor and teaching assistants for their dedication to the course content. I am also thankful to my classmates for their contributions through our peer review system. Their projects and feedback on our assignments helped me gain a deeper understanding of machine learning.
+
+## What is Machine Learning?
+
+On the first day of class, the instructor provided us with an answer. Simply put, machine learning is a science that enables computers to learn from data through programming. Scientists have developed a set of methods that allow us to automatically identify patterns in data. Although these patterns may not be 100% accurate (a point of ongoing development and improvement in the field of machine learning), they cover most scenarios. We use these patterns to predict future data. In this field, the main problem scientists address is how to enable computers to learn without explicit programming. By defining learning methods instead of specific conditional statements, we use "training"—our defined strategy function—to find the concrete implementation of a model.
+
+## What is a Model?
+
+We all know that machine learning involves using data to build a model. But what exactly is a model? In my view, the essence of a model is a mathematical function `f(x_i) = y`. It can have multiple inputs and will produce a result y based on the provided parameters. Essentially, we only define its "shape," known as the *hypothesis function*, but the specific parameter settings are derived through our defined training rules. I believe the output of machine learning—a model—is fundamentally no different from a function described in any programming language. Both require inputs when called and both return results of a fixed type. However, unlike traditional functions, this function is not hardcoded but learned from numerous examples as an approximate pattern. From some perspectives, a model is akin to a third-party API we access when designing systems. We only know what inputs are required and what will be returned, without knowing how it is implemented. Therefore, we shouldn't overly mystify machine learning—it's still a part of software engineering, an artifact. It also requires packaging, versioning, releasing, and rolling back, just like other software services. From this viewpoint, machine learning seems less complicated.
+
+## Classification of Machine Learning Systems
+
+I previously mentioned that a model needs to be "trained" through data. The quotation marks indicate that some models don't require actual training. There are many types of machine learning systems, which can be categorized from different perspectives.
+
+### Supervised, Unsupervised and Reinforcement Learning
+
+Machine learning systems can be categorized into supervised learning, unsupervised learning, and reinforcement learning based on whether they are trained under human supervision. Supervised learning involves data points that come with features as well as labels, which are the attributes we aim to predict. It is commonly used in classification and regression tasks. Methods ranging from simple linear regression to SVMs and modern complex neural networks fall under supervised machine learning. In contrast, unsupervised learning involves data points that only provide feature attributes without any labels. This type of learning is often used for clustering problems, which involve classifying data points, discovering patterns among them, and generating certain "labels." Techniques like PCA in feature engineering, and k-means and DBSCAN algorithms in clustering are examples of unsupervised learning. Reinforcement learning is somewhat special—it involves a learning system, often called an agent, that can observe the environment, make choices, execute actions, and receive rewards or penalties. The core of reinforcement learning is the **exploration-exploitation trade-off**, where the agent finds the optimal solution under known circumstances through continuous trial and error.
+
+### Batch Learning vs Online Learning
+
+If we classify models based on whether they can dynamically undergo incremental learning, we get online learning and batch learning. This classification mainly depends on whether the system can perform incremental learning from data streams after being deployed. Traditional batch learning systems cannot perform incremental learning; they must be trained using all available data. This often requires significant time and computation resources, and any update necessitates retraining from scratch. However, in online learning systems, we can perform minor training with new data, i.e., partial training and fine-tuning based on the existing model. This training method is quite common on short video platforms like TikTok, which need to adapt dynamically to user behavior and market developments. However, online learning also presents certain issues. If the system continuously inputs poor-quality data, its performance can gradually decline. To prevent this, additional observability systems need to be integrated to ensure normal operation. On the other hand, more complex training models imply higher implementation costs, which is why such systems are often only feasible for large companies with sufficient human resources and technology.
+
+### Instance-Based vs Model-Based Learning
+
+Finally, there's a classification method I particularly like and consider most appropriate. It divides learning into instance-based and model-based, depending on whether the model detects patterns in the training data to establish predictive models. Model-based learning involves training with large amounts of data to adjust the model's parameters over iterations, ultimately aiming to fit most of the data as closely as possible. This is also the approach that various popular deep learning algorithms follow. However, Instance-based learning is different. Its approach is to match new data points with known data points and then give a final result. This method is also known as traditional machine learning. It doesn't require pre-defining a model's hypothesis space and then adjusting parameters through a dataset. It's often used for classification problems, the most classic being the k-nearest neighbors algorithm (kNN). For a new data point, the kNN algorithm compares its spatial distance with all data points, finds the K nearest instances, and then classifies the new data point into the category to which the majority of those K instances belong.
+
+It's worth mentioning that the currently popular RAG technology isn’t actually a new kid on the block. Its underlying idea is quite similar to the kNN we just mentioned, except that for solving the common problems of instance-based learning systems, it has made some additional optimizations in terms of search performance and accuracy, which we will not elaborate on here. However, this shows us that traditional machine learning still has its place.
+
+## Amortized Inference and Production Latency
+
+The classification methods of instance-based learning and model-based learning actually imply a change in the design philosophy from traditional to modern models. In model-based learning, when using the final product, the **model**, we don’t actually utilize the training dataset, as we have already obtained the desired model parameters. To achieve good results, we often need a large amount of data for training. In contrast, instance-based learning directly uses the dataset to make the model operate. It doesn't require a vast amount of data to help adjust model parameters, thus even a small-scale dataset can yield good results.
+
+Looking at it this way, traditional machine learning models seem quite good, so why do we still need model-based learning? Besides the well-known fact that modern deep learning models perform better in image, video, and natural language processing, there are deeper reasons. From the working principle of kNN that we provided as an example, we can understand that the problem with instance-based learning is that each inference consumes a lot of computing time, as it is essentially a traversal operation. It needs to access all known instances to derive results, and each inference time increases with the size of the dataset. Model-based learning, on the other hand, spends most of its time on training, and once the parameters training is complete, the model won't take much time for inference once deployed. Model-based learning is essentially an "amortized inference" that shifts the complex inference steps to the training phase, thus reducing the response time of the model in a production environment. This greatly improves the user experience in the production environment.
+
+## Thinking Outside the Box
+
+In real-world scenarios, whether using instance-based learning or model-based learning, they both require specific problem analysis. In many real-world scenarios that need implementation, traditional machine learning systems often suffice. For example, in anomaly detection in factories or regulated fields like banking credit and healthcare, where strong oversight and interpretability are crucial. However, for issues demanding high accuracy with difficult-to-describe features, like facial recognition or AI customer service, model-based learning performs better.
+
+Machine learning models are always designed to solve real business problems. As software engineers or professionals in the computer field, we must remember that software exists to reduce costs and improve efficiency. Therefore, before we start to work on a task, we should ask our boss about the business objectives, as building a model may not be the ultimate goal. How will the company benefit from this model? Is there a more cost-effective solution? These are the crucial questions, as they determine how we define the problem, what algorithm we choose, how we evaluate the model, and how much effort we spend on fine-tuning it. Business needs dictate technology. A good software engineer isn't necessarily the one with the highest technical skills but the one with the deepest understanding of the business and the ability to always prioritize the company's interests by providing optimal solutions.
