@@ -3,7 +3,7 @@ Categories: []
 Description: ''
 DisableComments: false
 Tags: []
-date: 2026-01-5T17:17:55+08:00
+date: 2026-01-05T17:17:55+08:00
 summary: In the blink of an eye, 2025 has passed. It's a wrap! 🎉
 title: 2025 Recap
 ---
