@@ -1,6 +1,6 @@
 ---
 title: "Understanding the Core Mechanisms of Prometheus in One Article"
-Categories: []
+Categories: ["Observability"]
 Description: ''
 DisableComments: false
 Tags: []

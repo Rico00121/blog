@@ -3,7 +3,7 @@ title: "一文读懂 Prometheus 核心机制"
 date: 2026-02-08T23:44:06+02:00
 Description: ""
 Tags: []
-Categories: []
+Categories: ["Observability"]
 DisableComments: false
 summary: "最近作为可观测性工程师加入了一家 NeoCloud 公司，有幸参与从 0 到 1 搭建监控体系，便系统性地学习了 Prometheus。本文面向有 K8s 基础但第一次接触 Prometheus 的同学，讲解 Pull 模式、时间序列存储、Exporter 机制等核心概念，帮助你在正式使用前建立完整的认知框架。"
 ---
