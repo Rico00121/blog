@@ -23,7 +23,7 @@ In 2025, I:
 9. Took Jiajia on a tour across the European continent, visiting relatives and friends, gaining experiences.
 10. Experienced working life in Finland with an internship as a Cloud Engineer at KONE.
 11. Found a suitable Thesis work position in Finland—a stroke of luck.
-12. Received an offer from ByteDance, which is the job I want to do. Hard work pays off.
+12. Received an offer from ByteDance, which proves me. Hard work pays off.
 13. Trying to build a SaaS product.
 14. On the entertainment front, watched many shows and anime, including, but not limited to, Black Mirror Season 7, How to Sell Drugs Online Fast, Chainsaw Man Reze arc, Rick and Morty Season 8, The Day of the Jackal, and Try It Yourself... Additionally, rekindled my interest in League of Legends—playing late into the night with friends in a foreign land is quite fun.
 15. Underwent surgery, and it seems everything is going well, resolving a concern.
