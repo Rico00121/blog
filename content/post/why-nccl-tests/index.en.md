@@ -3,7 +3,7 @@ title: "Why NCCL Tests Matter"
 date: 2026-03-17T00:49:00+02:00
 Description: ""
 Tags: []
-Categories: []
+Categories: ["GPU Cluster"]
 summary: "Many engineers treat NCCL Tests as a simple GPU communication benchmark, but its more useful role is as a diagnostic tool for GPU cluster communication paths. By isolating communication from model compute, it helps expose NCCL timeouts, RDMA misconfiguration, node-to-node connectivity issues, bandwidth degradation, and network instability much more directly."
 DisableComments: false
 draft: false

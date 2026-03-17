@@ -3,7 +3,7 @@ title: "为什么需要 NCCL Tests"
 date: 2026-03-17T00:49:00+02:00
 Description: ""
 Tags: []
-Categories: []
+Categories: ["GPU Cluster"]
 summary: "很多人会把 NCCL Tests 当成单纯的 GPU 通信跑分工具，但它更准确的定位其实是 GPU 集群通信链路的诊断工具。通过把训练过程中的通信部分单独抽离出来，它可以帮助我们更高效地定位 NCCL timeout、RDMA 未生效、节点互通异常、带宽衰减和网络抖动等底层问题。"
 DisableComments: false
 draft: false
