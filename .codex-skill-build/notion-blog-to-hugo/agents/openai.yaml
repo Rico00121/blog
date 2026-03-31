@@ -1,0 +1,4 @@
+interface:
+  display_name: "Notion Blog to Hugo"
+  short_description: "Convert a Notion blog page into a Hugo bilingual post"
+  default_prompt: "Use $notion-blog-to-hugo to turn my Notion page into a Hugo post with Chinese and English versions."
