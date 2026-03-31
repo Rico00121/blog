@@ -1,5 +1,5 @@
 ---
-title: "当两个 Health Check 看到不同的 GPU 状态——一次架构问题的排查，修复与反思"
+title: "当两个 Health Check 看到不同的 GPU 状态：一次架构问题的排查，修复与反思"
 date: 2026-03-31T18:25:00+03:00
 Description: ""
 Tags: []
