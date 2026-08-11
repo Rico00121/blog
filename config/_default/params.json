@@ -3,7 +3,11 @@
     "author": "Ruikang Tao",
     "description": "Developing Expertise in Cloud & Network Infra",
     "profilePicture": "images/profile.jpg",
-    "gtagId": "G-W287YYPD0G",
+    "umami": {
+        "serverURL": "cloud.umami.is",
+        "id": "ba8f260a-9f9e-4f93-8f75-51f9c2570dd0",
+        "trackerScriptName": "script.js"
+    },
     "socialIcons": [
         {
             "icon": "fab fa-linkedin",
