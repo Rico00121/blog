@@ -6,6 +6,7 @@ Tags: []
 Categories: ["Machine Learning"]
 summary: "本文从一个直观问题出发：既然注意力机制最终读取的是 Value，为什么还需要 Query 和 Key？通过拆解 QKV 的分工，以及向量维度、多头注意力和层堆叠的作用，理解 Transformer 如何把“寻找相关信息”与“提取信息内容”解耦。"
 DisableComments: false
+math: true
 draft: false
 ---
 
@@ -27,7 +28,7 @@ $$
 2. **Key** 表示“我可以通过哪些特征被找到”。
 3. **Value** 表示“如果你关注我，我实际提供什么内容”。
 
-因此，$QK^T$ 负责决定不同 token 之间应该分配多少注意力，而 $V$ 承载的是被聚合的内容。
+因此，\(QK^T\) 负责决定不同 token 之间应该分配多少注意力，而 \(V\) 承载的是被聚合的内容。
 
 ## 为什么不直接让 Query 匹配 Value
 

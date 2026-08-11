@@ -6,6 +6,7 @@ Tags: []
 Categories: ["Machine Learning"]
 summary: "Why does attention need Queries and Keys if Values are what it ultimately reads? This article uses that question to explain the roles of Q, K, and V, then shows how representation dimensions, multiple attention heads, and stacked layers give Transformers their flexible context-matching ability."
 DisableComments: false
+math: true
 draft: false
 ---
 
@@ -27,7 +28,7 @@ An intuitive way to think about the three roles is:
 2. **Key** describes the features by which I can be found.
 3. **Value** contains what I contribute if I receive attention.
 
-The $QK^T$ term therefore determines how much attention should flow between token positions, while $V$ carries the content that will be aggregated.
+The \(QK^T\) term therefore determines how much attention should flow between token positions, while \(V\) carries the content that will be aggregated.
 
 ## Why Not Match Queries Directly Against Values?
 
