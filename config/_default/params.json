@@ -1,33 +1,31 @@
 {
-    "title": "I'm Ruikang Tao",
     "author": "Ruikang Tao",
     "description": "Developing Expertise in Cloud & Network Infra",
-    "profilePicture": "images/profile.jpg",
+    "theme": "auto",
+    "colorPalette": "default",
+    "hideHeader": false,
+    "homeCollection": "post",
+    "paginationSize": 10,
+    "listSummaries": false,
+    "listDateFormat": "2006-01-02",
+    "singleDateFormat": "2006-01-02",
+    "showListDate": true,
+    "readTime": true,
+    "toc": true,
+    "showTags": true,
+    "autonumber": false,
+    "breadcrumbs": {
+        "enabled": true,
+        "showCurrentPage": true,
+        "home": "Home"
+    },
+    "footerContent": "© 2026 Ruikang Tao · Powered by [Hugo](https://gohugo.io/) and [Typo](https://github.com/tomfran/typo)",
     "umami": {
+        "enable": true,
+        "websiteId": "ba8f260a-9f9e-4f93-8f75-51f9c2570dd0",
+        "jsLocation": "https://cloud.umami.is/script.js",
         "serverURL": "cloud.umami.is",
         "id": "ba8f260a-9f9e-4f93-8f75-51f9c2570dd0",
         "trackerScriptName": "script.js"
-    },
-    "socialIcons": [
-        {
-            "icon": "fab fa-linkedin",
-            "title": "Linkedin",
-            "url": "https://www.linkedin.com/in/ruikang-tao/"
-        },
-        {
-            "icon": "fab fa-github",
-            "title": "github",
-            "url": "https://github.com/Rico00121"
-        },
-        {
-            "icon": "fas fa-envelope",
-            "title": "e-mail",
-            "url": "mailto:rico00121@outlook.com"
-        },
-        {
-            "icon": "fas fa-rss",
-            "title": "rss",
-            "url": "https://rico00121.github.io/blog/post/index.xml"
-        }
-    ]
+    }
 }

@@ -1,0 +1,25 @@
+{{/* Typo header adapted to Hugo's multilingual menu system. */}}
+<div class="header">
+  {{ if or (not (.Param "hideHeader")) .IsHome }}
+    <h1 class="header-title">
+      <a href="{{ site.Home.RelPermalink }}">{{ site.Title }}</a>
+    </h1>
+
+    <div class="header-menu">
+      {{ $currentPage := . }}
+      {{ range site.Menus.main }}
+        <p class="small {{ if or ($currentPage.IsMenuCurrent `main` .) ($currentPage.HasMenuCurrent `main` .) }}bold{{ end }}">
+          <a href="{{ .URL | safeURL }}"{{ if hasPrefix .URL "http" }} target="_blank" rel="noopener noreferrer"{{ end }}>/{{ .Name }}</a>
+        </p>
+      {{ end }}
+
+      {{ if gt (len .AllTranslations) 1 }}
+        <p class="small language-switcher">
+          {{ range .AllTranslations }}
+            <a href="{{ .RelPermalink }}" hreflang="{{ .Language.LanguageCode }}"{{ if eq .Language.Lang $currentPage.Language.Lang }} class="bold" aria-current="page"{{ end }}>{{ .Language.LanguageName }}</a>
+          {{ end }}
+        </p>
+      {{ end }}
+    </div>
+  {{ end }}
+</div>

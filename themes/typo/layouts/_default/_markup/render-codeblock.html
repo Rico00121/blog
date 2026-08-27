@@ -1,0 +1,9 @@
+{{- $result := transform.HighlightCodeBlock . -}}
+
+<div class="code-block">
+  {{ $result.Wrapped }}
+  {{ $isZh := eq .Page.Language.Lang "zh" }}
+  <button class="copy-code-button"
+    data-copy="{{ if $isZh }}复制{{ else }}copy{{ end }}"
+    data-copied="{{ if $isZh }}已复制{{ else }}copied{{ end }}">{{ if $isZh }}复制{{ else }}copy{{ end }}</button>
+</div>

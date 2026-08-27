@@ -1,0 +1,12 @@
+{{ if gt .TotalPages 1 }}
+  {{ $isZh := eq site.Language.Lang "zh" }}
+  <div class="pagination">
+    <div class="pagination-control">
+      {{ if .HasPrev }}<a href="{{ .Prev.URL | absURL }}">{{ if $isZh }}上一页{{ else }}prev{{ end }}</a>{{ end }}
+    </div>
+    <div class="page-number"><p>{{ .PageNumber }}/{{ .TotalPages }}</p></div>
+    <div class="pagination-control">
+      {{ if .HasNext }}<a href="{{ .Next.URL | absURL }}">{{ if $isZh }}下一页{{ else }}next{{ end }}</a>{{ end }}
+    </div>
+  </div>
+{{ end }}

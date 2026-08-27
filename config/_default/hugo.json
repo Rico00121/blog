@@ -1,7 +1,11 @@
 {
     "baseURL": "https://rico00121.github.io/blog",
     "defaultContentLanguage": "en",
-    "theme": "anatole",
+    "theme": "typo",
+    "taxonomies": {
+        "tag": "tags",
+        "category": "categories"
+    },
     "markup": {
         "goldmark": {
             "extensions": {
@@ -16,6 +20,9 @@
             "renderer": {
                 "unsafe": true
             }
+        },
+        "highlight": {
+            "noClasses": false
         }
     }
 }

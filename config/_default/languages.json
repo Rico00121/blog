@@ -1,8 +1,41 @@
 {
     "en": {
+        "languageCode": "en-US",
         "languageName": "English",
         "title": "Rico's blog",
         "weight": 1,
+        "params": {
+            "homeIntroTitle": "Hi, I'm Ruikang Tao.",
+            "homeIntroContent": "I write about cloud infrastructure, networking, distributed systems, and the engineering lessons I learn along the way.",
+            "homeCollectionTitle": "Recent posts",
+            "breadcrumbs": {
+                "enabled": true,
+                "showCurrentPage": true,
+                "home": "Home"
+            },
+            "social": [
+                {
+                    "name": "linkedin",
+                    "title": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/ruikang-tao/"
+                },
+                {
+                    "name": "github",
+                    "title": "GitHub",
+                    "url": "https://github.com/Rico00121"
+                },
+                {
+                    "name": "email",
+                    "title": "Email",
+                    "url": "mailto:rico00121@outlook.com"
+                },
+                {
+                    "name": "rss",
+                    "title": "RSS",
+                    "url": "/blog/post/index.xml"
+                }
+            ]
+        },
         "menus": {
             "main": [
                 {
@@ -24,9 +57,42 @@
         }
     },
     "zh": {
-        "languageName": "Chinese",
+        "languageCode": "zh-CN",
+        "languageName": "中文",
         "title": "瑞康的博客",
         "weight": 2,
+        "params": {
+            "homeIntroTitle": "你好，我是陶瑞康。",
+            "homeIntroContent": "这里主要记录云基础设施、网络、分布式系统，以及我在工程实践中的思考。",
+            "homeCollectionTitle": "近期文章",
+            "breadcrumbs": {
+                "enabled": true,
+                "showCurrentPage": true,
+                "home": "首页"
+            },
+            "social": [
+                {
+                    "name": "linkedin",
+                    "title": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/ruikang-tao/"
+                },
+                {
+                    "name": "github",
+                    "title": "GitHub",
+                    "url": "https://github.com/Rico00121"
+                },
+                {
+                    "name": "email",
+                    "title": "邮件",
+                    "url": "mailto:rico00121@outlook.com"
+                },
+                {
+                    "name": "rss",
+                    "title": "RSS",
+                    "url": "/blog/zh/post/index.xml"
+                }
+            ]
+        },
         "menus": {
             "main": [
                 {

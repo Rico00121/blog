@@ -1,0 +1,53 @@
+:root {
+  --main-width: 720px;
+  --p-line-height: 1.8em;
+  --font-body: "Literata", "Noto Serif SC", "Source Han Serif SC",
+    "Songti SC", STSong, Georgia, ui-serif, serif;
+}
+
+.header-menu {
+  row-gap: 0.35rem;
+}
+
+.language-switcher {
+  margin-inline-start: auto;
+}
+
+.single-content {
+  overflow-wrap: anywhere;
+}
+
+.single-content img {
+  height: auto;
+}
+
+@media screen and (max-width: 640px) {
+  :root {
+    --main-padding: 1.15em;
+    --h1-font-size: 1.75em;
+    --h2-font-size: 1.5em;
+  }
+
+  .header-menu {
+    align-items: baseline;
+    flex-wrap: wrap;
+  }
+
+  .language-switcher {
+    margin-inline-start: 0;
+    width: 100%;
+  }
+
+  .post-line {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  .line-date {
+    min-width: 0;
+    max-width: none;
+    padding-right: 0;
+    text-align: left;
+    color: var(--content-secondary);
+  }
+}
