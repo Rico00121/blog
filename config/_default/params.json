@@ -27,5 +27,13 @@
         "serverURL": "cloud.umami.is",
         "id": "ba8f260a-9f9e-4f93-8f75-51f9c2570dd0",
         "trackerScriptName": "script.js"
+    },
+    "giscus": {
+        "enable": true,
+        "repo": "Rico00121/blog",
+        "repoid": "R_kgDOJ9qDIQ",
+        "category": "Announcements",
+        "categoryid": "DIC_kwDOJ9qDIc4DEW9p",
+        "theme": "preferred_color_scheme"
     }
 }
