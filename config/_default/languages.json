@@ -1,7 +1,7 @@
 {
     "en": {
-        "languageCode": "en-US",
-        "languageName": "English",
+        "locale": "en-US",
+        "label": "English",
         "title": "Rico's blog",
         "weight": 1,
         "params": {
@@ -57,8 +57,8 @@
         }
     },
     "zh": {
-        "languageCode": "zh-CN",
-        "languageName": "中文",
+        "locale": "zh-CN",
+        "label": "中文",
         "title": "瑞康的博客",
         "weight": 2,
         "params": {

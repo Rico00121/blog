@@ -16,7 +16,7 @@
       {{ if gt (len .AllTranslations) 1 }}
         <p class="small language-switcher">
           {{ range .AllTranslations }}
-            <a href="{{ .RelPermalink }}" hreflang="{{ .Language.LanguageCode }}"{{ if eq .Language.Lang $currentPage.Language.Lang }} class="bold" aria-current="page"{{ end }}>{{ .Language.LanguageName }}</a>
+            <a href="{{ .RelPermalink }}" hreflang="{{ .Language.Locale }}"{{ if eq .Language.Lang $currentPage.Language.Lang }} class="bold" aria-current="page"{{ end }}>{{ .Language.Label }}</a>
           {{ end }}
         </p>
       {{ end }}
