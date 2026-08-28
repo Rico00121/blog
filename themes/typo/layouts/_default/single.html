@@ -63,10 +63,11 @@
     
     {{- /* Table of Contents */}}
     
-    {{- if .Param "toc" }}
+    {{- $toc := .TableOfContents }}
+    {{- if and (.Param "toc") (in $toc "<li>") }}
       <aside class="toc">
         <p><strong>{{ if $isZh }}目录{{ else }}Table of contents{{ end }}</strong></p>
-        {{ .TableOfContents }}
+        {{ $toc }}
       </aside>
     {{- end }}
     

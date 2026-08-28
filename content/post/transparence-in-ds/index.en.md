@@ -7,6 +7,7 @@ summary: The transparency of distributed systems conceals underlying complexity,
   user experience but also posing challenges for management and troubleshooting. Consistency
   algorithms, reasonable architecture, and observability are needed to optimize them.
 title: Transparency in Distributed Systems
+toc: false
 ---
 
 What is transparency in distributed systems? Before answering this question, let's first discuss what a distributed system is.

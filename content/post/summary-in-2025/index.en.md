@@ -8,7 +8,7 @@ summary: In the blink of an eye, 2025 has passed. It's a wrap! 🎉
 title: 2025 Recap
 ---
 
-# Achieved
+## Achieved
 
 In 2025, I:
 
@@ -28,14 +28,14 @@ In 2025, I:
 14. On the entertainment front, watched many shows and anime, including, but not limited to, Black Mirror Season 7, How to Sell Drugs Online Fast, Chainsaw Man Reze arc, Rick and Morty Season 8, The Day of the Jackal, and Try It Yourself... Additionally, rekindled my interest in League of Legends—playing late into the night with friends in a foreign land is quite fun.
 15. Underwent surgery, and it seems everything is going well, resolving a concern.
 
-# Didn't Achieve
+## Didn't Achieve
 
 1. Sticking to English practice remained challenging, and I didn't learn many new words. It feels like I've even regressed compared to when I was in France.
 2. SAP certification. I felt no motivation to complete it. It doesn't seem like a good plan.
 3. Leetcode practice problems. But do I really need to do them? My inner self tells me it's a waste of time.
 4. Going to bed early and getting up early.
 
-# Improvements/Reflections/Insights
+## Improvements/Reflections/Insights
 
 1. **Health and peace** are more important than anything else.
 2. Keep a low profile. Hold off big moves for 2026.

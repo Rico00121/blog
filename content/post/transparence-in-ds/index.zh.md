@@ -5,6 +5,7 @@ Description: ""
 Tags: []
 Categories: ["Distributed Systems"]
 summary: "分布式系统的透明性隐藏了底层复杂性，提升用户体验，但也带来了管理和故障排查的挑战，需要一致性算法、合理架构和可观察性来优化。"
+toc: false
 ---
 什么是分布式系统的透明性？在回答这个问题之前，我们不妨先聊聊什么是分布式系统。
 

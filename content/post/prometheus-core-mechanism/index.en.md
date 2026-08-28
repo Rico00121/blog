@@ -15,7 +15,7 @@ summary: "I recently joined a NeoCloud company as an Observability Engineer
 
 ---
 
-# Background
+## Background
 
 Recently, I joined a Finnish NeoCloud company as an observability engineer. As the business rapidly expands, building a comprehensive observability system (Logs / Metrics / Tracing) for the cloud service platform from scratch has become a priority, giving me the chance to be systematically involved.
 
@@ -29,7 +29,7 @@ This article is aimed at those who **have a foundation in Kubernetes but are enc
 
 I hope this article helps you establish a complete mental map before you officially "use Prometheus."
 
-# Core Mechanics of Prometheus
+## Core Mechanics of Prometheus
 
 If I had to describe the core operation of Prometheus in one sentence, it would be:
 
@@ -78,13 +78,13 @@ This query means: calculate the rate of...Calculate the CPU usage growth rate in
 
 In practice, we usually don't write PromQL directly. Instead, we use visualization tools like Grafana to connect with Prometheus as a data source, use PromQL to query data on the Dashboard, render it into various charts or dashboards, or set up alert rules (sending notifications when a metric exceeds a threshold).
 
-# Why Prometheus Chooses Pull Instead of Push
+## Why Prometheus Chooses Pull Instead of Push
 
 As mentioned earlier, Prometheus "periodically pulls data," which might seem confusing to some. Most monitoring systems adopt a method where services actively push data to the monitoring center, which seems more intuitive. So why does Prometheus choose the opposite approach?
 
 There are two main reasons for this:
 
-## 1. The Monitoring System Retains Control
+### 1. The Monitoring System Retains Control
 
 In a pull model, Prometheus controls all data collection activities:
 
@@ -114,7 +114,7 @@ In contrast, a push model carries such risks:
 - Collection frequencies are spread across the code of each application, requiring changes in numerous services to adjust them uniformly.
 - If an application starts pushing 100,000 metrics per second, the monitoring server has to bear the load.
 
-## 2. Clearer Failure Semantics
+### 2. Clearer Failure Semantics
 
 In a pull model, if pulling fails, the reason is straightforward:
 
@@ -131,7 +131,7 @@ For example, consider an application that only sends `http_requests_total` when 
 
 The Pull model doesn't have this issue. Prometheus regularly asks, "Are you still alive? Give me the latest data," and if it can't retrieve anything, it knows there's a problem immediately.
 
-# Two Methods of Exposing Metrics
+## Two Methods of Exposing Metrics
 
 At this point, you may wonder: Since Prometheus only recognizes the `/metrics` endpoint, who exactly provides this endpoint?
 In my work experience, I've found that two distinct models exist in the world of Prometheus.
@@ -220,7 +220,7 @@ In summary, **embed whenever possible, externalize only if not possible**. If yo
 
 For Prometheus, it doesn't matter who provides the `/metrics`, as long as it can retrieve data in the correct format. This design allows Prometheus to monitor both modern cloud-native applications and traditional infrastructure, demonstrating its robust adaptability. This adaptability is why it remains the de facto standard in the monitoring field even after many years.
 
-# Summary
+## Summary
 
 In this article, we explored the core working mechanisms of Prometheus, understanding how it periodically collects data from `/metrics` interfaces using a Pull model, stores this data as time series, and offers query capabilities through PromQL.
 

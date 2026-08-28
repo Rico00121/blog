@@ -13,18 +13,18 @@ Recently, many friends have been asking about my internship search experience, s
 
 Regarding job search channels, I don’t want to focus too much on the broad submissions via public platforms. Personally, I view the traditional resume submission as a lower-tier strategy for both internships and formal job searches. Here, I will focus on what I consider the most effective job search strategy with the highest return on investment.
 
-### The Best Channel is Internal Referrals
+## The Best Channel is Internal Referrals
 Networking is extremely important! This holds true universally, though it might not be as obvious in China due to the abundance of opportunities. Its importance undeniably ranks as Top1. As our Career Development lecturer mentioned, in Finland, 90% of recruitment happens silently, with positions often not advertised on job sites. This explains why there is a scarcity of job postings on LinkedIn. So, **actively participating in meaningful networking events** and meeting new people can be greatly beneficial for your job search.
 
 My experience attests to this: my current thesis internship opportunity arose because I participated in a hackathon over the summer and met the CTO of one of the sponsors, which led to a valuable interview opportunity. Additionally, my previous supervisor proactively inquired about any potential openings within the company for me. I also spoke to an Indian colleague I met at a seminar about my internship hunt; he kindly offered to ask his team if there were openings and even introduced me to two other Chinese professionals at different companies (probably to ensure varied examples since his might not fit my situation, plus communication with fellow countrymen is easier). Friends already working in Finland and professors I met in class have all been of great assistance. Therefore, proactively expressing your job needs is crucial.
 
-### Maximize the Use of School/Alumni Resources
+## Maximize the Use of School/Alumni Resources
 
 Schools offer a wealth of resources, and most teachers are more than willing to assist since student employment rates post-graduation also reflect on the school’s reputation. It is beneficial to pay attention to internal job-seeking activities at school. To find out what activities are available, simply check your school’s website, specifically the student guide, or ask the career development officer. For instance, in Aalto (you can analogize this to resources available at your own institution), Career...Fairs, [Talent Expo](https://www.aalto.fi/en/node/91041), and [Summer Job Day](https://www.aalto.fi/en/node/58646) are excellent venues for job hunting and networking with industry professionals. Additionally, most schools have career development centers that offer advice and tips on the job search process and resume writing.
 
 Your alumni network is also an invaluable resource. It’s important to emphasize the significance of networking once again. Before starting, it’s beneficial to consult with seniors or friends who are already employed. See if they have any internal resources you can tap into. Alumni connections are incredibly important, and sometimes your interviewer might be an alumnus or a colleague of your friends. This could greatly increase your chances of passing the interview.
 
-### Participate in Professional Networking Events
+## Participate in Professional Networking Events
 
 These refer to events where you can connect with industry professionals and engage in meaningful exchanges. I personally find two activities beneficial: hackathons and attending various meetups.
 
@@ -32,7 +32,7 @@ Regarding participating in hackathons, don’t worry if your programming skills 
 
 The other option is attending various offline tech meetups. There's an app called Meetup where you can see various meetups happening around the world, both online and offline. I recommend attending offline ones where you can enjoy some refreshments and have a more tangible experience. These events are usually hosted by local tech companies to promote themselves within the tech community. Attending these events and connecting on LinkedIn might open up opportunities. You might even meet helpful professionals from other companies who might lend you a hand. Even if they can’t directly refer you, networking can make it easier to seek help or information in the future.
 
-### Job Websites as a Last Resort
+## Job Websites as a Last Resort
 
 Lastly, there are various job websites, which are somewhat a cliché. If you have already tried the above methods, you can give this a shot, but the return on investment may be lower. If you plan to submit applications en masse, I personally find the following useful:LinkedIn, Indeed, Glassdoor, and Google (yes, Google’s search engine also has a job search function). However, it is worth noting that once you choose to look for a job through these aggregate recruitment platforms, it means you are entering a competitive track with others. So, unless absolutely necessary, do not waste too much time on these platforms.
 
