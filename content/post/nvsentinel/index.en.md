@@ -100,7 +100,7 @@ There is a potential risk worth highlighting for distributed workloads. As the d
 
 ## Overview
 
-![](images/nvsentinel-workflow.png)
+![](images/nvsentinel-workflow-en.png)
 
 Finally, a few tips:
 

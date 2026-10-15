@@ -21,6 +21,11 @@
   height: auto;
 }
 
+/* Keep intrinsic-size images and their aspect-ratio containers the same size. */
+.single-content figure:not(.img-full):not(.img-small) .img-container {
+  max-width: calc(var(--w) * 1px);
+}
+
 @media screen and (max-width: 640px) {
   :root {
     --main-padding: 1.15em;
