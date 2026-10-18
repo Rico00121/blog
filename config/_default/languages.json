@@ -51,7 +51,7 @@
                 {
                     "name": "About",
                     "weight": 300,
-                    "url": "https://ricotao.me/"
+                    "pageRef": "/about"
                 }
             ]
         }
@@ -108,7 +108,7 @@
                 {
                     "name": "关于我",
                     "weight": 300,
-                    "url": "https://ricotao.me/"
+                    "pageRef": "/about"
                 }
             ]
         }
