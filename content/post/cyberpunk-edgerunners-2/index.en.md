@@ -18,3 +18,5 @@ The character concepts, at least, are quite inventive. There's a simp so deeply 
 On a scale of 0–10, I'd give it a 3. Purely for nostalgia. The ending doesn't come close to the impact of the first season, and the finale starts big only to fizzle out, leaving you wondering what on earth is going on. The second male lead just drops dead. Also, with all those scenes of the little-boy lead filming this and that, I thought we'd at least get a final montage, quickly revisiting all the storylines from the first episode onward and giving us something to look back on. Instead, nothing… All that cutting between shots and filming amounted to nothing…
 
 All in all, Night City's story goes on, and an individual's fight against capital always comes to nothing. All the destructive incidents and unrest in the city, and the lives of ordinary people, barely register in the eyes of the big corporations. As long as there's enough profit in it, even firing missiles at the city is fine.
+
+![Photo accompanying the review](images/cyberpunk-edgerunners-2.png)
