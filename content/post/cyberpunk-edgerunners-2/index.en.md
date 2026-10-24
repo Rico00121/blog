@@ -19,4 +19,6 @@ On a scale of 0–10, I'd give it a 3. Purely for nostalgia. The ending doesn't 
 
 All in all, Night City's story goes on, and an individual's fight against capital always comes to nothing. All the destructive incidents and unrest in the city, and the lives of ordinary people, barely register in the eyes of the big corporations. As long as there's enough profit in it, even firing missiles at the city is fine.
 
+Finally, here’s a beautiful photo of the female lead.
+
 ![Photo accompanying the review](images/cyberpunk-edgerunners-2.png)
