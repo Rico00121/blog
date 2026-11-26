@@ -1,5 +1,5 @@
 ---
-title: "Learning Latte Art in Two Hours: From Blobs to Tulips"
+title: "A 2-Hour Latte Art Crush"
 date: 2026-11-26T23:15:00+02:00
 Description: ""
 Tags: []
