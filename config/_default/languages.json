@@ -6,7 +6,7 @@
         "weight": 1,
         "params": {
             "homeIntroTitle": "Hi, I'm Ruikang Tao.",
-            "homeIntroContent": "I write about cloud infrastructure, networking, distributed systems, and the engineering lessons I learn along the way.",
+            "homeIntroContent": "I write about cloud infrastructure, networking, distributed systems, the engineering lessons I learn along the way, and reflections on everyday life.",
             "homeCollectionTitle": "Recent posts",
             "breadcrumbs": {
                 "enabled": true,
@@ -63,7 +63,7 @@
         "weight": 2,
         "params": {
             "homeIntroTitle": "你好，我是陶瑞康。",
-            "homeIntroContent": "这里主要记录云基础设施、网络、分布式系统，以及我在工程实践中的思考。",
+            "homeIntroContent": "这里主要记录云基础设施、网络、分布式系统，以及我在工程实践中的思考和生活感悟。",
             "homeCollectionTitle": "近期文章",
             "breadcrumbs": {
                 "enabled": true,
